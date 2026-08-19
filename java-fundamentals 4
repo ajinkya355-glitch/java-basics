@@ -14,7 +14,7 @@ public class ExamMark {
             else if(mark >= 60 && mark <= 69){
                 System.out.println("C  Grade");
             }
-            else if(mark >= 35 && mark <= 59){
+            else if(mark >= 34 && mark <= 59){
                 System.out.println("Pass");
             }
             else if(mark >=0 && mark <= 35){
