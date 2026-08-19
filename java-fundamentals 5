@@ -1,0 +1,21 @@
+public class TaxInvoice {
+    public static void main(String[] args){
+        int salary = -1000;
+
+        if (salary <= 25000 && salary > 0){
+            System.out.println("NO TAX");
+        }
+        else if(salary >= 25000 && salary <= 50000){
+            System.out.println("5% TAX");
+        }
+        else if(salary >= 50001 && salary <= 100000 ){
+            System.out.println("10%  TAX");
+        }
+        else if(salary > 100000){
+            System.out.println("20% TAX");
+        }
+        else{
+            System.out.println("Enter invalid numbers");
+        }
+    }
+}
