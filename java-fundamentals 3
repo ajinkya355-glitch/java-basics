@@ -1,0 +1,9 @@
+public class Dem1 {
+    public static void main(String[] args){
+
+        int salary = 20000;
+        int bonus = 5000;
+
+        System.out.println(salary + bonus);
+    }
+}
